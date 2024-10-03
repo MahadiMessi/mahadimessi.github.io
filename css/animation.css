@@ -1,0 +1,30 @@
+
+
+/* Define variáveis personalizadas */
+:root {
+  --accentColor: #ffffff; 
+  --font: 'Karla', sans-serif; /* Fonte utilizada */
+  --delay: 0.1s; /* Atraso para animações */
+}
+
+/* Animação de transição para o corpo da página */
+@keyframes transitionAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 100%;
+}

@@ -1,0 +1,56 @@
+
+.bblockquote {
+  width: 500px;
+  height: 435px;
+  background-color: aliceblue;
+  margin: 0;
+  border-radius: 15px;
+  padding: 48px;
+  box-shadow: 15px 20px darkslategray;
+  box-sizing: border-box;
+}
+#symbol {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 200px;
+  color: darkslategray;
+  font-weight: 900;
+  display: block;
+  height: 80px;
+  line-height: 165px;
+}
+#quote {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 100;
+  font-size: 26px;
+  line-height: 1.4;
+  color: darkslategray;
+}
+.bhr {
+  border: 0.5px solid slategray;
+}
+.bimg {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 -5px;
+     object-position: 0 -5px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+#name {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  vertical-align: middle;
+  margin-top: 0px;
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 18px;
+  color: darkslategray;
+}
+#detail {
+  font-weight: 100;
+  font-size: 14px;
+}

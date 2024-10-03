@@ -1,0 +1,64 @@
+
+
+.about-me-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+}
+
+.about-me-container h1 {
+    color: #4caf50;
+}
+
+.about-me-container p, .about-me-container ul {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.about-me-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.about-me-container a:hover {
+    text-decoration: underline;
+}
+
+.about-me-container button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.about-me-container button:hover {
+    background-color: #45a049;
+}
+
+.theme-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.theme-dark h1 {
+    color: #ff9800;
+}
+
+.theme-dark a {
+    color: #ff5722;
+}
+
+.theme-dark button {
+    background-color: #ff9800;
+}
+
+.theme-dark button:hover {
+    background-color: #f57c00;
+}
